@@ -1,0 +1,19 @@
+{
+  "name": "t800-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Jean Bispo <1jeanbispo@gmail.com>",
+  "scripts": {
+    "dev": "nodemon index.js --watch './src/**/**.js'",
+    "start": "nodejs index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
